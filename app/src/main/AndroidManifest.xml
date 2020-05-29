@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.onlinehospitalappointmentbooking">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="com.example.onlinehospitalappointmentbooking.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name="com.example.onlinehospitalappointmentbooking.view.AddDoctor"
+                  android:label="Add Doctor"  />
+        <activity android:name="com.example.onlinehospitalappointmentbooking.view.AddHospital"
+                  android:label="Add Hospital"/>
+        <activity android:name="com.example.onlinehospitalappointmentbooking.view.AddSlot"
+                  android:label="Add Slot"/>
+        <activity android:name="com.example.onlinehospitalappointmentbooking.view.AdminHome"
+                  android:label="Admin Home"  />
+        <activity android:name="com.example.onlinehospitalappointmentbooking.view.AdminListHospital"
+                  android:label="Admin"/>
+        <activity android:name="com.example.onlinehospitalappointmentbooking.view.BookAppointment"
+                  android:label="Book Appointment"  />
+        <activity android:name="com.example.onlinehospitalappointmentbooking.view.HospitalHome"
+                  android:label="Hospital Home"/>
+        <activity android:name="com.example.onlinehospitalappointmentbooking.view.ListAppointments"
+                  android:label="Appointments"/>
+        <activity android:name="com.example.onlinehospitalappointmentbooking.view.ListDoctors"
+                  android:label="Doctors"  />
+        <activity android:name="com.example.onlinehospitalappointmentbooking.view.ListSlots"
+                  android:label="Slots"  />
+        <activity android:name="com.example.onlinehospitalappointmentbooking.view.LoginActivity"
+                  android:label="Login"  />
+        <activity android:name="com.example.onlinehospitalappointmentbooking.view.PatientHome"
+                  android:label="Patient Home"/>
+        <activity android:name="com.example.onlinehospitalappointmentbooking.view.RegisterActivity"
+                  android:label="Register"/>
+        <activity android:name="com.example.onlinehospitalappointmentbooking.view.ViewAppointment"
+                  android:label="Appointment"/>
+        <activity android:name="com.example.onlinehospitalappointmentbooking.view.ViewDoctor"
+                  android:label="Doctor"/>
+        <activity android:name="com.example.onlinehospitalappointmentbooking.view.ViewDoctorProfile"
+                  android:label="Doctor Profile"/>
+        <activity android:name="com.example.onlinehospitalappointmentbooking.view.ViewHospital"
+                  android:label="Hospital" />
+        <activity android:name="com.example.onlinehospitalappointmentbooking.view.ViewPatient"
+                  android:label="Patient" />
+        <activity android:name="com.example.onlinehospitalappointmentbooking.view.ViewSlot"
+                  android:label="Slot"/>
+
+    </application>
+
+
+
+</manifest>

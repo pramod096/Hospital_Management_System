@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "632383291087",
+    "firebase_url": "https://onlinehospitalappointmen-1f54c.firebaseio.com",
+    "project_id": "onlinehospitalappointmen-1f54c",
+    "storage_bucket": "onlinehospitalappointmen-1f54c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:632383291087:android:7b3c02426307480e0001ba",
+        "android_client_info": {
+          "package_name": "com.example.onlinehospitalappointmentbooking"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "632383291087-a1vu95dp8n296sea9oj1dc22l6hcnk02.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD-j3x0FQNnR_ud6lbi7w4H9TvHpSdLKqI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "632383291087-a1vu95dp8n296sea9oj1dc22l6hcnk02.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

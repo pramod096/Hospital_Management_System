@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".view.AddDoctor"
+    android:layout_margin="10dp"
+    android:gravity="center">
+
+    <EditText
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Name"
+        android:id="@+id/adddoctorname"/>
+
+    <EditText
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Speciality"
+        android:id="@+id/adddoctorspeciality"/>
+
+    <EditText
+        android:gravity="center"
+        android:hint="Enter Qualification"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/adddoctorqualification"/>
+
+    <EditText
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Experience"
+        android:id="@+id/adddoctorexperience"/>
+
+    <EditText
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Languages He Speak"
+        android:id="@+id/adddoctorlanguage"/>
+
+    <Button
+        android:id="@+id/adddoctorbutton"
+        android:text="Add Doctor"
+        android:textSize="32dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
